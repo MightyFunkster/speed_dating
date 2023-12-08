@@ -67,20 +67,20 @@ Please provide feedback on the project layout, documentation or any other aspect
 
 ### [Version 1.0.0] - 05/12/2023
 
-#### Added
+#### Added:
 - [data_preprocessing.py](https://github.com/MightyFunkster/speed_dating/blob/main/data_preprocessing.py) containing all the pre processing code (deleting NULL values, deleting missing pairs and imputating data).
 - [create_tables.py](https://github.com/MightyFunkster/speed_dating/blob/main/create_tables.py) containing code to create the database schema.
 - [attribute_importance.py](https://github.com/MightyFunkster/speed_dating/blob/main/attribute_importance.py) containing code to perform a random forest model for feature importance on the attribute that most drives second date potential.
 - [confidence_box.py](https://github.com/MightyFunkster/speed_dating/blob/main/confidence_box.py) containing **very** slow code to create a line and box plot showing how confidence in your own attraction affects second date potential.
 - [self_perception_attraction.py](https://github.com/MightyFunkster/speed_dating/blob/main/self_perception_attraction.py) containing code to analyse what role accurate self-perception of attraction plays on second date success.
 
-#### Changed
+#### Changed:
 
-#### Removed/Archived
+#### Removed/Archived:
 
 ### [Version 2.0.0] - 07/12/2023
 
-#### Added
+#### Added:
 - Added [Speed Dating Data Key.doc](https://github.com/MightyFunkster/speed_dating/blob/main/Speed%20Dating%20Data%20Key.doc) to main folder.
 - Added links to the [Speed Dating Data Key.doc](https://github.com/MightyFunkster/speed_dating/blob/main/Speed%20Dating%20Data%20Key.doc) and [speed_dating.csv](https://github.com/MightyFunkster/speed_dating/blob/main/speed_dating.csv) to the 'How to use this project section'.
 - Added a [Deprecated Folder](https://github.com/MightyFunkster/speed_dating/tree/main/Deprecated) to store old .py files.
@@ -89,18 +89,18 @@ Please provide feedback on the project layout, documentation or any other aspect
 - Added the [old database schema](https://github.com/MightyFunkster/speed_dating/blob/main/Deprecated/Database%20Documentation.pdf) to the [Deprecated Folder](https://github.com/MightyFunkster/speed_dating/tree/main/Deprecated).
 - Moved the .csv to .db creation and the data pre processing to [speed_dating_analysis.ipynb](https://github.com/MightyFunkster/speed_dating/blob/main/speed_dating_analysis.ipynb).
 
-#### Changed
+#### Changed:
 
-#### Removed/Archived
+#### Removed/Archived:
 - Moved old .py files ([data_preprocessing.py](https://github.com/MightyFunkster/speed_dating/blob/main/Deprecated/data_preprocessing.py), [create_tables.py](https://github.com/MightyFunkster/speed_dating/blob/main/Deprecated/create_tables.py), [attribute_importance.py](https://github.com/MightyFunkster/speed_dating/blob/main/Deprecated/attribute_importance.py), [confidence_box.py](https://github.com/MightyFunkster/speed_dating/blob/main/Deprecated/confidence_box.py) and [self_perception_attraction.py](https://github.com/MightyFunkster/speed_dating/blob/main/Deprecated/self_perception_attraction.py) to the [Deprecated Folder](https://github.com/MightyFunkster/speed_dating/tree/main/Deprecated).)
 
 ### [Version 2.0.1] - 08/12/2023
 
-#### Added
+#### Added:
 - Added an overall analysis description cell at the beginning.
 - Added table creation code.
 
-#### Changed
+#### Changed:
 - Updated .csv to .db description with explanation of included columns.
 - Updated .csv to .db code to include pf_o columns.
 - Updated the .csv to .db code with pf_o mappings to ensure names are consistent.
@@ -114,5 +114,5 @@ Please provide feedback on the project layout, documentation or any other aspect
 - Changed table creation function to one function per table.
 - Included table creation for preferences table.
 
-#### Removed/Archived
+#### Removed/Archived:
 
