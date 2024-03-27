@@ -35,6 +35,7 @@ This study explores:
 - Cross-validation for number of nearest neighbour values.
 - Test results without using data imputation and include in Jupyter Notebook.
 - Test results with larger values of NULL values required for row deletion and include in Jupyter Notebook.
+- Add chapter links at start of notebook.
   
 ## How to Contribute
 
